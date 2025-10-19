@@ -15,40 +15,41 @@ export const me = {
     resume: "/resume.pdf"                                    // keep for header nav button
   },
   tech: {
-    Languages: ["Java", "JavaScript", "C", "Python"],
-    "Web & Backend": ["React", "Angular", "Node.js", "Express.js", "Flask", "HTML5", "CSS", "Bootstrap"],
-    Tools: ["GitHub", "Postman", "Figma"]
+    Languages: ["Java", "Python", "JavaScript", "C", "SQL"],
+    "Full-Stack Development": ["React", "Node.js", "Express.js", "Flask", "HTML5", "CSS", "Bootstrap", "Tailwind CSS", "REST APIs", "GraphQL", "MongoDB", "PostgreSQL"],
+    "Cloud & Tools": ["AWS", "Git", "GitHub", "Docker", "CI/CD", "Postman", "VS Code", "Figma"]
   },
   projects: [
     {
       title: "Potato Leaf Disease Detector",
       period: "Jan 2025 – Apr 2025",
-      stack: ["Flask", "Deep Learning", "MongoDB", "Node.js"],
+      stack: ["Flask", "MongoDB", "Node.js", "EJS"],
       bullets: [
-        "Web app for uploading leaf images and getting instant disease predictions.",
-        "Pipeline combined CNN features with classical ML; responsive dashboard and history."
+        "Led the creation of a full-stack application for instant disease classification from leaf images, cutting manual inspection effort by 40%.",
+        "Engineered robust data management with MongoDB for persistent session tracking and prediction history.",
+        "Developed an interactive frontend with EJS for real-time visualization and email alerts, improving engagement by 30%."
       ],
       image: "/images/proj1.jpg"
     },
     {
       title: "Pneumonia Detection via Chest X-rays",
       period: "Aug 2024 – Dec 2024",
-      stack: ["TensorFlow", "ResNet50", "MobileNetV2", "VGG16"],
+      stack: ["TensorFlow", "ResNet50", "MobileNet V2"],
       bullets: [
-        "Feature extraction using pretrained CNNs with systematic model evaluation.",
-        "Reported precision, recall, F1, and confusion matrix for fair comparisons."
+        "Built an end-to-end pipeline using ResNet 50, MobileNet V2, and VGG16 for automated pneumonia screening from X-ray datasets.",
+        "Enhanced diagnostic reliability by 12-15% using feature fusion and classical models (KNN, Random Forest, SVM).",
+        "Compiled results into clear visual reports for non-technical stakeholders."
       ],
       image: "/images/proj2.jpg"
     },
-    // NEW: Project #3
     {
-      title: "caRent — Car Rental Platform",
+      title: "Car Rental Platform",
       period: "Jan 2024 – May 2024",
-      stack: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "bcrypt"],
+      stack: ["Node.js", "Express.js", "MongoDB", "React"],
       bullets: [
-        "Built real-time booking with city-based availability, scheduling, and search.",
-        "Implemented JWT auth and bcrypt-hashed credentials; role-based access for admins.",
-        "Responsive UI, streamlined flows, FAQs and testimonials to improve usability."
+        "Architected a backend with Node.js/Express for real-time booking and scheduling for 100+ users.",
+        "Strengthened security with JWT-based authentication and Bcrypt encryption, reducing unauthorized access by 30%.",
+        "Built a dynamic React frontend with reusable components, improving client-side responsiveness by 25%."
       ],
       image: "/images/proj3.jpg"
     }
@@ -57,20 +58,21 @@ export const me = {
     {
       role: "Technical Head",
       company: "VITMAS",
-      period: "Jan 2022 – Dec 2024",
+      period: "Jan 2022 – May 2025",
       bullets: [
-        "Led a cross-functional team building MERN tools used across student events.",
-        "Centralized portal for registrations, email automation, and analytics.",
-        "JWT auth and responsive UI/UX."
+        "Spearheaded a cross-functional team of 12 developers to design and deploy MERN-based internal platforms, streamlining technical operations for 1,000+ students.",
+        "Built and launched a centralized portal for registrations, analytics, and email automation, reducing manual overhead by 60%.",
+        "Directed project planning, delegated tasks, and facilitated collaboration to ensure timely project delivery."
       ]
     },
     {
       role: "R&D Intern",
       company: "NIT Warangal",
-      period: "Nov 2023 – Dec 2023",
+      period: "Aug 2023 – Dec 2023",
       bullets: [
-        "Optimized image processing pipelines (LBP, OpenCV, NumPy).",
-        "Prototyped CNN models with transfer learning; automated evaluation."
+        "Designed and optimized image processing pipelines (LBP, OpenCV, NumPy), achieving a 17% runtime gain.",
+        "Leveraged TensorFlow, PyTorch, and Keras to prototype CNN-based models, improving classification performance.",
+        "Curated benchmark datasets and automated evaluation with ranking models (k-NN, SVM)."
       ]
     }
   ],
